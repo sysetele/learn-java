@@ -15,11 +15,12 @@ plugins {
 }
 
 // Define the main class for the application
-mainClassName = 'ArithmeticDemo'
+mainClassName = 'PostgreSQLJDBC'
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:23.0'
+    compile 'org.postgresql:postgresql:42.2.2.jre7'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
